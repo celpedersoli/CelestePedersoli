@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Celeste Pedersoli | Yoga & Raíz</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+
+        :root {
+
+            --bg-color: #fdfaf7;
+
+            --text-color: #333;
+
+            --accent-green: #6b705c;
+
+            --soft-green: #a5a58d;
+
+            --terracotta: #b07d62;
+
+        }
+
+
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+            font-family: 'Inter', sans-serif;
+
+            background-color: var(--bg-color);
+
+            color: var(--text-color);
+
+            line-height: 1.6;
+
+        }
+
+
+
+        h1, h2, h3 {
+
+            font-family: 'Playfair Display', serif;
+
+            font-weight: 400;
+
+        }
+
+
+
+        header {
+
+            height: 80vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            padding: 20px;
+
+            background: linear-gradient(rgba(253, 250, 247, 0.8), rgba(253, 250, 247, 0.8)), 
+
+                        url('https://images.unsplash.com/photo-1506485338023-6ce5f36692df?auto=format&fit=crop&q=80&w=1000') center/cover;
+
+        }
+
+
+
+        header h1 { font-size: 3rem; margin-bottom: 10px; color: var(--accent-green); }
+
+        header p { font-style: italic; font-size: 1.2rem; }
+
+
+
+        section {
+
+            max-width: 900px;
+
+            margin: 60px auto;
+
+            padding: 20px;
+
+        }
+
+
+
+        .section-title {
+
+            text-align: center;
+
+            border-bottom: 1px solid var(--soft-green);
+
+            padding-bottom: 10px;
+
+            margin-bottom: 40px;
+
+            color: var(--accent-green);
+
+        }
+
+
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+            gap: 30px;
+
+        }
+
+
+
+        .card {
+
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 8px;
+
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+
+        }
+
+
+
+        .detox-box {
+
+            background-color: var(--accent-green);
+
+            color: white;
+
+            padding: 40px;
+
+            border-radius: 15px;
+
+            text-align: center;
+
+        }
+
+
+
+        .detox-box h2 { color: white; margin-top: 0; }
+
+
+
+        .cta-button {
+
+            display: inline-block;
+
+            background-color: var(--terracotta);
+
+            color: white;
+
+            padding: 12px 30px;
+
+            text-decoration: none;
+
+            border-radius: 50px;
+
+            margin-top: 20px;
+
+            transition: 0.3s;
+
+        }
+
+
+
+        .cta-button:hover { background-color: var(--accent-green); }
+
+
+
+        footer {
+
+            text-align: center;
+
+            padding: 40px;
+
+            background: #f4f1ee;
+
+            font-size: 0.9rem;
+
+        }
+
+
+
+        @media (max-width: 600px) {
+
+            header h1 { font-size: 2rem; }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>Celeste Pedersoli</h1>
+
+        <p>Volver al cuerpo. Volver a la raíz.</p>
+
+        <a href="#contacto" class="cta-button">Empezar el retorno</a>
+
+    </header>
+
+
+
+    <section id="sobre-mi">
+
+        <h2 class="section-title">Sobre mí</h2>
+
+        <p>Soy profesora de Yoga desde 2010 y Fitoterapeuta. Mi enfoque une la precisión física del cuerpo en movimiento con la sabiduría ancestral de la medicina natural. Entiendo el bienestar como un proceso de escucha: ya sea sobre el mat o a través de una planta, el objetivo es recuperar nuestro equilibrio original.</p>
+
+    </section>
+
+
+
+    <section id="detox">
+
+        <div class="detox-box">
+
+            <h2>Experiencia Detox</h2>
+
+            <p>Una combinación única de <strong>Hatha Yoga Dinámico</strong> y <strong>Fitoterapia</strong> para desintoxicar el organismo. Mover la energía y asistir a los órganos con plantas medicinales para una limpieza integral.</p>
+
+            <a href="#contacto" style="color: white; text-decoration: underline;">Consultar por el programa</a>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="servicios">
+
+        <h2 class="section-title">Prácticas y Cursos</h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>Yoga</h3>
+
+                <p><strong>Los Talas, Berisso:</strong> Lun. y Mié. 19:45 hs.</p>
+
+                <p><strong>La Plata (6 y 68):</strong> Mar. y Jue. 19:00 hs.</p>
+
+                <p><strong>Online:</strong> Mar. y Jue. 09:00 hs (Arg).</p>
+
+                <p><em>Especialidad en Yoga para embarazadas.</em></p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Fitoterapia</h3>
+
+                <p><strong>Consultas:</strong> Guía en alimentación nutritiva y personalizada.</p>
+
+                <p><strong>Curso "Sanar con Plantas":</strong> 2do domingo de cada mes a las 10:00 hs.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="contacto" style="text-align: center;">
+
+        <h2 class="section-title">Contacto</h2>
+
+        <p>¿Te gustaría sumarte a una clase o agendar una consulta?</p>
+
+        <p><strong>Ubicación:</strong> La Plata & Berisso, Argentina.</p>
+
+        <a href="https://wa.me/tu-numero-aqui" class="cta-button">Enviar mensaje por WhatsApp</a>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2026 Celeste Pedersoli - Yoga & Fitoterapia</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
