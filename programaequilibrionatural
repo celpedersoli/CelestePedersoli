@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuerpoRaíz | Programa Equilibrio Natural</title>
+    <style>
+        /* Estética Minimalista y Natural */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #fdfbf7; /* Crema suave */
+        }
+
+        header {
+            background-color: #4a5d4e; /* Verde musgo */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { color: #4a5d4e; border-bottom: 2px solid #e0d7c6; padding-bottom: 10px; }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .price-tag {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #8c6a56; /* Terracota */
+            text-align: center;
+            display: block;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: block;
+            background-color: #8c6a56;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn:hover { background-color: #6d5242; }
+
+        .badge {
+            background: #eef2ef;
+            color: #4a5d4e;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        footer { text-align: center; padding: 40px; font-size: 0.9rem; color: #777; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CuerpoRaíz</h1>
+    <p>Programa Equilibrio Natural – 4 Semanas</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Reconectá con tu esencia</h2>
+        <p>Un programa diseñado para ayudarte a integrar cuerpo, mente y energía de manera natural. Recibí herramientas y acompañamiento profesional para transformar tu bienestar.</p>
+    </section>
+
+    <div class="card">
+        <h3>✨ ¿Qué incluye el programa?</h3>
+        <ul>
+            <li><strong>Clases de Yoga 🧘‍♀️:</strong> Todos los niveles. Foco en flexibilidad y equilibrio.</li>
+            <li><strong>Fitoterapia Personalizada 🌿:</strong> Guía en plantas medicinales y suplementos naturales.</li>
+            <li><strong>Guía de Alimentación 🥗:</strong> Planes basados en alimentos frescos y recetas fáciles.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>📍 Modalidades Disponibles</h3>
+        <span class="badge">Presencial</span>
+        <span class="badge">Virtual</span>
+        <span class="badge">Combinada</span>
+        <p><small>Adaptamos el seguimiento a tu ritmo de vida.</small></p>
+    </div>
+
+    <section>
+        <h2>Beneficios</h2>
+        <ul>
+            <li>Mayor energía y vitalidad diaria.</li>
+            <li>Reducción del estrés y mejora del descanso.</li>
+            <li>Hábitos que perduran en el tiempo.</li>
+        </ul>
+    </section>
+
+    <div class="card">
+        <span class="price-tag">Inversión: $100.000</span>
+        <p style="text-align: center;">Incluye 4 semanas de acompañamiento integral.</p>
+        <a href="https://wa.me/TUNUMEROAQUI" class="btn">RESERVAR MI LUGAR</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 CuerpoRaíz - Bienestar Integral
+</footer>
+
+</body>
+</html>
